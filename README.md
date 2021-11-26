@@ -1,4 +1,4 @@
-# JS Snake in 713 bytes
+# JS Snake in 711 bytes
 A more optimized recreation of the JavaScript Snake bookmarklet from Cheng Sun (https://chengsun.uk/snake.html).  
   
 ### Comparison
