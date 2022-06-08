@@ -1,6 +1,14 @@
 # JS Snake in 707 bytes
 A more optimized recreation of the JavaScript Snake bookmarklet from Cheng Sun (https://chengsun.uk/snake.html).  
   
+### Features
+* Colors
+* Press P to pause
+* A ramped scoring system
+  * The score increases gradually after food has been eaten.
+* Food that ages
+  * The food darkens over time, which decreases its value.
+  
 ### Comparison
   
 Original:  
