@@ -1,5 +1,5 @@
 ## Customization
-#### Map Settings
+### Map Settings
 Note that expressions such as `64*/*insert number*/` can be replaced with their evaluated solutions.
 * Example: Replace `64*5` with `320`, and `64**2` with `4096`.
 ##### To change the size of a pixel:
@@ -18,7 +18,7 @@ Note that expressions such as `64*/*insert number*/` can be replaced with their 
     * Replace `/*insert number*/` with the same number used for `Q`.
 ##### To remove the red borders:
   * Replace `z=F[e]=!(e%Q--%Q&&z%Q)|(Q=e==h)+Q` with `z=F[e]=(Q=e==h)+Q`.
-#### Gameplay Settings
+### Gameplay Settings
 ##### To show decimals in the score:
   * Change `S|!setTimeout(F,50)` to `S+!setTimeout(F,50)`.
 ##### To change the snake's speed:
