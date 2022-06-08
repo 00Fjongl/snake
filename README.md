@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/65314359/172524891-0259f423-36d1-4745-98cb-0cc123a202cd.png)
 # JS Snake in 707 bytes
 A more optimized recreation of the JavaScript Snake bookmarklet from Cheng Sun (https://chengsun.uk/snake.html).  
   
