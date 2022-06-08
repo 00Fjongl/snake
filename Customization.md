@@ -2,10 +2,13 @@
 ### Map Settings
 Note that expressions such as `64*/*insert number*/` can be replaced with their evaluated solutions.  
   
-Example: Replace `64*5` with `320`, and `64**2` with `4096`.
+Examples:
+* Replace `64*5` with `320`.
+* Replace `64**2` with `4096`.
+* Replace `64*64` with `4096`.
 ##### To change the size of a pixel:
   * Change all of the fives in `e%Q*5,(z=e>>6)*5,5,5` to a different number.
-  * Change `b.width=b.height=320` to `b.width=b.height=64*/*insert number*/`
+  * Change `b.width=b.height=320` to `b.width=b.height=64*/*insert number*/`.
     * Replace `/*insert number*/` with the same number used in the first step.
     * The `64` in the middle should be set to the number that `Q` has been set to.
       * `Q=64` is the default.
@@ -24,7 +27,7 @@ Example: Replace `64*5` with `320`, and `64**2` with `4096`.
   * Change `S|!setTimeout(F,50)` to `S+!setTimeout(F,50)`.
 ##### To change the snake's speed:
   * Change the `50` in `S|!setTimeout(F,50)` to a different number.
-    * A smaller number means a faster speed, and a larger number means a slower speed.
+    * A smaller number means a faster speed (less delay), and a larger number means a slower speed (more delay).
     * Decimals will be accepted as well.
 ##### To change input keys:
 ###### Directional Input
