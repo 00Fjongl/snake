@@ -1,7 +1,8 @@
 ## Customization
 ### Map Settings
-Note that expressions such as `64*/*insert number*/` can be replaced with their evaluated solutions.
-* Example: Replace `64*5` with `320`, and `64**2` with `4096`.
+Note that expressions such as `64*/*insert number*/` can be replaced with their evaluated solutions.  
+  
+Example: Replace `64*5` with `320`, and `64**2` with `4096`.
 ##### To change the size of a pixel:
   * Change all of the fives in `e%Q*5,(z=e>>6)*5,5,5` to a different number.
   * Change `b.width=b.height=320` to `b.width=b.height=64*/*insert number*/`
