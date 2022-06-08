@@ -1,4 +1,4 @@
-### Customization
+## Customization
 #### Map Settings
 ##### To change the size of a pixel:
   * Change all of the fives in `e%Q*5,(z=e>>6)*5,5,5` to a different number.
