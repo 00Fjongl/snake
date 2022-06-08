@@ -10,7 +10,7 @@ A more optimized recreation of the JavaScript Snake bookmarklet from Cheng Sun (
   * The food darkens over time, which decreases its value.
   
 #### Customizing
-Customization can be found [here](Customization.md).
+Customization methods can be found [here](Customization.md).
   
 ### Comparison
   
