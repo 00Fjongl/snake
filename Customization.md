@@ -1,18 +1,21 @@
 ## Customization
 #### Map Settings
+Note that expressions such as `64*/*insert number*/` can be replaced with their evaluated solutions.
+* Example: Replace `64*5` with `320`, and `64**2` with `4096`.
 ##### To change the size of a pixel:
   * Change all of the fives in `e%Q*5,(z=e>>6)*5,5,5` to a different number.
   * Change `b.width=b.height=320` to `b.width=b.height=64*/*insert number*/`
     * Replace `/*insert number*/` with the same number used in the first step.
     * The `64` in the middle should be set to the number that `Q` has been set to.
       * `Q=64` is the default.
-    * 
 ##### To change the width and height of the playing area:
   * Change `(z=e>>6)` to `(z|=e/Q)`.
   * Change the value of `Q` to a different number.
   * Change `b.width=b.height=320` to `b.width=b.height=/*insert number*/*5`.
     * Replace `/*insert number*/` with the same number used for `Q`.
     * The `5` at the end should be set to the number being used for the size of a pixel.
+  * Change `m=b=4096` to `m=b=/*insert number*/**2`.
+    * Replace `/*insert number*/` with the same number used for `Q`.
 ##### To remove the red borders:
   * Replace `z=F[e]=!(e%Q--%Q&&z%Q)|(Q=e==h)+Q` with `z=F[e]=(Q=e==h)+Q`.
 #### Gameplay Settings
