@@ -9,7 +9,7 @@ A more optimized recreation of the JavaScript Snake bookmarklet from Cheng Sun (
 * Food that ages
   * The food darkens over time, which decreases its value.
   
-### Customizing
+#### Customizing
 Customization can be found [here](Customization.md).
   
 ### Comparison
