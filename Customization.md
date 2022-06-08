@@ -25,6 +25,7 @@
 ##### To change input keys:
 ###### Directional Input
 Uhh, good luck with this one. `4/e>1&e+b` is hardcoded to accept 4 keys *that follow each other in sequential order* according to `KeyboardEvent.keyCode`.  
+  
 In this instance, it is determined by `e=e.keyCode-37`, with `e.keyCode` returning `37` upon pressing the left arrow key.  
 Alter the number at the end to set the left input key and the keys that follow it. The table below shows the currently used key codes:  
 Key | Code
@@ -38,6 +39,7 @@ Key | Code
 More information can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#constants_for_keycode_value).
 ###### Pausing
 Notice how the key code for `P` is `80`. Part of the code that handles user input contains `(e=e.keyCode-37)-43`, and in that code, the `37` and `43` add up to equal `80`. The pause button is determined in the same way, by taking the sum of the two numbers being used.  
+  
 To set the pause key, change `43` to the difference between the new key's code and `37` (the left input key's code). Since the pause key is currently `P`, this would be represented by `80 - 37 = 43`.
 ##### To change built-in messages:
   * Change ```alert`Game Over` ``` to ```alert`Insert Message Here` ```.
